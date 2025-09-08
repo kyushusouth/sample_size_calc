@@ -22,3 +22,7 @@ n1 = numerator / denominator
 n2 = r * n1
 n = n1 + n2
 print(n)
+
+z = abs(p1 - p2) / math.sqrt((1 + r) * p * (1 - p) / (r * n1))
+print(z)
+print(z_alpha_half)
